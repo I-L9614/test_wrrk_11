@@ -1,0 +1,25 @@
+th{
+  border: 1px #000000 solid;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  align-items: center;
+}
+
+img {
+  max-width: 80px;
+  max-height: 80px;
+}
