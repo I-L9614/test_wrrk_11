@@ -41,7 +41,7 @@ function App() {
       <header>
         <h1>Threat Actor Database</h1>
       </header>
-      <span>
+      <span className='buttons'>
         <button onClick={()=> setFilter("all")}>All</button>
         <button onClick={() => setFilter("active")}>Actives</button>
         <button onClick={() => setFilter("quiet")}>Quiets</button>
